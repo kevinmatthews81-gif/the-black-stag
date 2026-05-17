@@ -1080,7 +1080,8 @@ footer a:hover { color: var(--accent); }
 @media (max-width: 960px) {
   nav { padding: 0 1.5rem; }
   .nav-links { display: none; }
-  .nav-hamburger { display: flex; }
+  .nav-hamburger { display: none; }
+  .nav-brand-name { display: none; }
   .hero-scroll { display: none; }
 
   .about-grid {
@@ -1091,7 +1092,6 @@ footer a:hover { color: var(--accent); }
 
   .contact-grid { grid-template-columns: 1fr; gap: 2.5rem; }
 
-  .prints-features { grid-template-columns: 1fr; }
   .policies { grid-template-columns: 1fr; }
 
   .modal-img-side img { max-width: 50vw; }
@@ -1102,9 +1102,8 @@ footer a:hover { color: var(--accent); }
   #intro { padding: 4rem 1.3rem 0; }
   .intro-inner { padding-bottom: 4rem; }
 
-  .painting-row, .painting-row.alt {
-    flex-direction: column;
-    gap: 1.5rem;
+  .painting-row {
+    gap: 1.2rem;
     align-items: flex-start;
   }
   .painting-thumb {
@@ -1112,7 +1111,8 @@ footer a:hover { color: var(--accent); }
   }
   .painting-info { padding-top: 0; }
 
-  .prints-features { grid-template-columns: 1fr; }
+  .prints-features { grid-template-columns: 1fr 1fr; }
+  .feature-card { padding: 1.2rem 1rem; }
   .pricing-tiers { grid-template-columns: 1fr; gap: 2px; }
 
   .modal-inner {
