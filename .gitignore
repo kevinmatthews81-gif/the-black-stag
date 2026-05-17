@@ -1,0 +1,15 @@
+# macOS
+.DS_Store
+._*
+
+# Large hi-res image folder (too large for deployment)
+RM hig res Stag jpgs/
+
+# Word docs (source content, not needed on web)
+*.docx
+
+# Claude local settings
+.claude/
+
+# Local dev server artefacts
+node_modules/
