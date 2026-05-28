@@ -1,0 +1,4 @@
+RM hig res Stag jpgs/
+*.docx
+.claude/
+node_modules/

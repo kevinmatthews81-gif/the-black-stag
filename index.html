@@ -1402,7 +1402,7 @@ footer a:hover { color: var(--accent); }
 
         <p>Much of my work now reflects the beauty and magic of the Scottish Highlands and its remarkable wildlife — principally the Red Stag. I paint in acrylics on a line and wash board (watercolour paper pressed onto board), and from each original I produce a strictly limited edition print run of only 100.</p>
 
-        <p>The paintings show iconic Scottish landscapes lit by the spectacular light of the Highland skies — all featuring the silhouette of the Scottish Red Stag. The paintings show various iconic Scottish landscapes lit by the spectacular and beautiful light of the Highland skies.</p>
+        <p>The paintings show various iconic Scottish landscapes lit by the spectacular and beautiful light of the Highland skies — all featuring the silhouette of the Scottish Red Stag.</p>
 
         <p style="font-family: var(--font-head); font-style: italic; color: var(--text); font-size: 1.12rem; line-height: 1.8;">I aim to paint something extraordinary — a moment that few photographers will ever be capable of capturing.</p>
 
@@ -1522,10 +1522,10 @@ footer a:hover { color: var(--accent); }
 
 // ── DATA ────────────────────────────────────────────────────────
 const HERO = [
-  { src: 'Favourite%20%3A%20Hero%20images/IMG_5987.jpeg', alt: 'Highland painting by Richard H Moore' },
-  { src: 'Favourite%20%3A%20Hero%20images/IMG_5997.jpeg', alt: 'Scottish stag — The Black Stag collection' },
-  { src: 'Favourite%20%3A%20Hero%20images/IMG_6005.jpeg', alt: 'Highland landscape painting by Richard H Moore' },
-  { src: 'Favourite%20%3A%20Hero%20images/IMG_6007.jpeg', alt: 'The Black Stag artwork — Scottish Highlands' },
+  { src: 'Favourite : Hero images/IMG_5987.jpeg', alt: 'Highland painting by Richard H Moore' },
+  { src: 'Favourite : Hero images/IMG_5997.jpeg', alt: 'Scottish stag — The Black Stag collection' },
+  { src: 'Favourite : Hero images/IMG_6005.jpeg', alt: 'Highland landscape painting by Richard H Moore' },
+  { src: 'Favourite : Hero images/IMG_6007.jpeg', alt: 'The Black Stag artwork — Scottish Highlands' },
 ];
 
 const PAINTINGS = [
@@ -1534,112 +1534,144 @@ const PAINTINGS = [
     subtitle: 'Mountains of Sky',
     desc: 'The evening light of late summer bathes the Isle of Skye. The hills and mountains are wrapped in glorious colours of gold, burnt umber and red oxide. The sky yellow and orange as the day begins to fade. Silently witnessing nature\'s amazing palette is the Scottish Stag.',
     note: 'I love this time of the day. The light beautiful but transient. A small window but captured forever.',
-    thumb: 'Smaller%20file%20size%20images/Isle%20of%20Skye%20Dawn%20Medium.jpeg',
-    hires: 'Smaller%20file%20size%20images/Isle%20of%20Skye%20Dawn%20Medium.jpeg',
+    thumb: 'Smaller file size images/Isle of Skye Dawn Medium.jpeg',
+    hires: 'Smaller file size images/Isle of Skye Dawn Medium.jpeg',
   },
   {
     title: 'Sunset Stag',
     subtitle: '',
     desc: 'Lonely on the horizon stands a Red Stag. Behind him the setting sun burning the sky into magical hues of gold, orange, red and blue. The day slips quietly and quickly into night. Nature at its most beautiful.',
     note: '',
-    thumb: 'Smaller%20file%20size%20images/Sunset%20Stag%20Medium.jpeg',
-    hires: 'Smaller%20file%20size%20images/Sunset%20Stag%20Medium.jpeg',
+    thumb: 'Smaller file size images/Sunset Stag Medium.jpeg',
+    hires: 'Smaller file size images/Sunset Stag Medium.jpeg',
   },
   {
     title: 'Starlight Stag',
     subtitle: '',
     desc: 'The Scottish Stag stands silently under the darkening mantle of the evening sky. Above, emerging from the setting sun, is the glowing brilliance of the Milky Way. The stars beginning to twinkle in its mysterious swirling glory.',
     note: 'I always wanted to paint the Milky Way. It was challenging but I believe I caught its majestic beauty.',
-    thumb: 'Smaller%20file%20size%20images/Starlight%20Stag%20Medium.jpeg',
-    hires: 'Smaller%20file%20size%20images/Starlight%20Stag%20Medium.jpeg',
+    thumb: 'Smaller file size images/Starlight Stag Medium.jpeg',
+    hires: 'Smaller file size images/Starlight Stag Medium.jpeg',
   },
   {
     title: 'Glen Shiel',
     subtitle: 'Highland Winter',
     desc: 'On steep mountainous slopes stands a Red Stag. Behind, basking in the sunshine of late winter, lays one of the mountains of Glen Shiel. The mountain majestic and silent. Its shadows blue and cold in the last of the winter\'s snow.',
     note: 'I love scenes like this. It\'s pure Scottish beauty.',
-    thumb: 'Smaller%20file%20size%20images/Glen%20Shiel%20Medium.jpeg',
-    hires: 'Smaller%20file%20size%20images/Glen%20Shiel%20Medium.jpeg',
+    thumb: 'Smaller file size images/Glen Shiel Medium.jpeg',
+    hires: 'Smaller file size images/Glen Shiel Medium.jpeg',
   },
   {
     title: 'Suilven Sunset',
     subtitle: '',
     desc: 'It\'s late in the day. The evening sky lit crimson red in the dying sun. Cast in these unearthly colours is the unmistakable shape of Suilven. Its steep slopes resplendent, glowing red in the sunset. The only witness is a Scottish Stag, silhouetted dark and mysterious in this alien landscape.',
     note: 'It\'s an unforgettable mountain.',
-    thumb: 'Smaller%20file%20size%20images/Suilven%20Sunset%20Medium.jpeg',
-    hires: 'Smaller%20file%20size%20images/Suilven%20Sunset%20Medium.jpeg',
+    thumb: 'Smaller file size images/Suilven Sunset Medium.jpeg',
+    hires: 'Smaller file size images/Suilven Sunset Medium.jpeg',
   },
   {
     title: 'Aurora Stag',
     subtitle: 'Northern Lights',
     desc: 'With its antlers crowned with the Northern Lights, the majestic form of the Red Stag stands dark on the horizon. The alien lights dance above it. Nature\'s fireworks — once witnessed, never forgotten. A magical moment captured forever.',
     note: 'One of my favourite paintings.',
-    thumb: 'Smaller%20file%20size%20images/Aurora%20Stag%20Medium.jpeg',
-    hires: 'Smaller%20file%20size%20images/Aurora%20Stag%20Medium.jpeg',
+    thumb: 'Smaller file size images/Aurora Stag Medium.jpeg',
+    hires: 'Smaller file size images/Aurora Stag Medium.jpeg',
   },
   {
     title: 'Howling Stag',
     subtitle: 'Aurora',
     desc: 'The sky is twisted into strange shapes and lights — dancing together in the dark heavens. The green light, alien against the purple of the sky. Under which the Red Stag roars. A moment in time, frozen and captured forever.',
     note: 'Nature paints the best palettes. I try to capture it when it\'s doing its magic.',
-    thumb: 'Smaller%20file%20size%20images/Howling%20Stag%20Medium.jpeg',
-    hires: 'Smaller%20file%20size%20images/Howling%20Stag%20Medium.jpeg',
+    thumb: 'Smaller file size images/Howling Stag Medium.jpeg',
+    hires: 'Smaller file size images/Howling Stag Medium.jpeg',
   },
   {
     title: 'Aird Mair Stag',
     subtitle: 'Ben Mor Coigach',
     desc: 'Against a dark winter\'s sky, with the moon mysterious and red, stands a Scottish Stag. He is silhouetted against a silent, ghostly mountain which stands guard over Aird Mair Bay. You can feel winter\'s cold breath.',
     note: '',
-    thumb: 'Smaller%20file%20size%20images/Aird%20Mair%20Stag%20Medium.jpeg',
-    hires: 'Smaller%20file%20size%20images/Aird%20Mair%20Stag%20Medium.jpeg',
+    thumb: 'Smaller file size images/Aird Mair Stag Medium.jpeg',
+    hires: 'Smaller file size images/Aird Mair Stag Medium.jpeg',
   },
   {
     title: 'Ben Loyal Sunset',
     subtitle: '',
     desc: 'Standing blackly against the glow of the evening light, the Stag watches over his kingdom. Behind him, painted red by the dying day\'s light, is Ben Loyal. Above, the sky is on fire — crimson, red and yellow flames twisting together fleetingly, burning up before the dark of the night.',
     note: 'Sunsets and sunrises are my two favourite times of the day.',
-    thumb: 'Smaller%20file%20size%20images/Ben%20Loyal%20Sunset%20Medium.jpeg',
-    hires: 'Smaller%20file%20size%20images/Ben%20Loyal%20Sunset%20Medium.jpeg',
+    thumb: 'Smaller file size images/Ben Loyal Sunset Medium.jpeg',
+    hires: 'Smaller file size images/Ben Loyal Sunset Medium.jpeg',
   },
   {
     title: 'Sunrise Stag',
     subtitle: 'Ben Loyal — Misty Morning',
     desc: 'Emerging from the cold steel-grey morning mists is the dark form of the Scottish Stag. Behind him, lit in the new light of dawn, is Ben Loyal. The yellow light merging with the night sky. You can feel the silence as the day rises from the dark of the night.',
     note: '',
-    thumb: 'Smaller%20file%20size%20images/Sunrise%20Stag%20Medium.jpeg',
-    hires: 'Smaller%20file%20size%20images/Sunrise%20Stag%20Medium.jpeg',
+    thumb: 'Smaller file size images/Sunrise Stag Medium.jpeg',
+    hires: 'Smaller file size images/Sunrise Stag Medium.jpeg',
   },
   {
     title: 'Storr Stag',
     subtitle: 'Old Man of Storr',
     desc: 'The Red Stag watches as showers scud across the sunlit landscape. The rain brief, but heavy. The Old Man of Storr a silent witness to the passing storm. A landscape eternal, timeless, enduring — the weather fleeting. A moment in time, captured forever.',
     note: 'My favourite weather: fast-moving dark heavy clouds which cause racing shadows over the land.',
-    thumb: 'Smaller%20file%20size%20images/Storr%20Stag%20Medium.jpeg',
-    hires: 'Smaller%20file%20size%20images/Storr%20Stag%20Medium.jpeg',
+    thumb: 'Smaller file size images/Storr Stag Medium.jpeg',
+    hires: 'Smaller file size images/Storr Stag Medium.jpeg',
   },
   {
     title: 'Storm Stag',
     subtitle: 'Storm over Maiden Pap',
     desc: 'Standing silently, the Stag watches the approaching storm. The light shining through gaps in the dark clouds, highlighting cold snowy hills. The black shape of Maiden Pap brooding in the gloom. A timeless landscape, ancient and beautiful.',
     note: 'I love the dark gloomy atmosphere. The land immutable and hushed before the storm breaks and thunder echoes over it.',
-    thumb: 'Smaller%20file%20size%20images/Storm%20Stag%20Medium.jpeg',
-    hires: 'Smaller%20file%20size%20images/Storm%20Stag%20Medium.jpeg',
+    thumb: 'Smaller file size images/Storm Stag Medium.jpeg',
+    hires: 'Smaller file size images/Storm Stag Medium.jpeg',
   },
   {
     title: 'Midnight Stag',
     subtitle: 'Morven by Moonlight',
     desc: 'In the quiet of the night sky, the moon emerges briefly, shining its silver light onto dark purple clouds. The distinctive shape of Morven glows in the moonlight. Standing in silence, a Stag watches over this mysterious, eldritch scene.',
     note: 'I love the magic of night — the silver moon, the moonbeams filtering over the land. At night the world becomes a different place. Magical and mysterious.',
-    thumb: 'Smaller%20file%20size%20images/Midnight%20Stag%20Medium.jpeg',
-    hires: 'Smaller%20file%20size%20images/Midnight%20Stag%20Medium.jpeg',
+    thumb: 'Smaller file size images/Midnight Stag Medium.jpeg',
+    hires: 'Smaller file size images/Midnight Stag Medium.jpeg',
   },
   {
-    title: 'Stags at Stac Pollaidh',
-    subtitle: 'Starlit Highland',
-    desc: 'Glowing in the last rays of the day sits the distinctive shape of Stac Pollaidh. Above is the Milky Way — the stars beginning to twinkle as the night takes over from the day, the yellowing twilight being replaced by the dark blue of the night sky. Below, the Scottish Stag slowly disappears into the cold mists.',
+    title: 'Stac Pollaidh',
+    subtitle: '',
+    desc: 'Glowing in the last rays of the day sits the distinctive shape of Stac Pollaidh. Above is the Milky Way. The stars beginning to twinkle as the night takes over from the day. The yellowing twilight being replaced by the dark blue of the night sky. Below the Scottish Stag slowly disappears into the cold mists as the warmth of the day is replaced by cold air.',
     note: 'I love the magical atmosphere as night replaces day.',
-    thumb: 'Smaller%20file%20size%20images/Stags%20at%20Stac%20Polladh%20Medium.jpeg',
-    hires: 'Smaller%20file%20size%20images/Stags%20at%20Stac%20Polladh%20Medium.jpeg',
+    thumb: 'Smaller file size images/Stac Pollaidh Stag.jpeg',
+    hires: 'Smaller file size images/Stac Pollaidh Stag.jpeg',
+  },
+  {
+    title: 'Misty Morning Trees',
+    subtitle: '',
+    desc: 'A pine tree stands silent as the sun rises behind it. The sky lighting, the yellow chasing the night blue away. Beneath a Stag emerges from swirling morning mists. It\'s cold but with a promise of summer heat on its way. The inky darkness of the forest slowly materialises into light.',
+    note: 'I wanted to capture the start and atmosphere of a new day in nature. You can almost hear the beginning of the dawn chorus.',
+    thumb: 'Smaller file size images/Misty Morning Trees.jpeg',
+    hires: 'Smaller file size images/Misty Morning Trees.jpeg',
+  },
+  {
+    title: 'The Old Man of Storr',
+    subtitle: 'Winter',
+    desc: 'The moon rises, an unearthly colour, over the frozen landscape of Trotternish Ridge. Standing silently in this cold winter tableau is the Old Man of Storr. A timeless ancient sentinel to earth\'s seasons. The sky is purple with cold. The snow reflects these icy colours, making the landscape appear alien. A Stag disappears into the freezing mists. A timeless scene of frozen magic.',
+    note: '',
+    thumb: 'Smaller file size images/Old Man of Storr WInter 2.jpeg',
+    hires: 'Smaller file size images/Old Man of Storr WInter 2.jpeg',
+  },
+  {
+    title: 'The Old Man of Storr',
+    subtitle: 'Isle of Skye',
+    desc: 'The Red Stag watches as showers scud across the sunlit landscape. The rain brief, but heavy. The Old Man of Storr a silent witness to the passing storm. A landscape eternal, timeless, enduring — the weather fleeting. A moment in time, captured forever.',
+    note: 'My favourite weather: fast-moving dark heavy clouds which cause racing shadows over the land.',
+    thumb: 'Smaller file size images/The Old Man of Storr Isle of Sky.jpeg',
+    hires: 'Smaller file size images/The Old Man of Storr Isle of Sky.jpeg',
+  },
+  {
+    title: 'Winter over Ben Mor Coigach',
+    subtitle: '',
+    desc: 'Against a dark winter\'s sky, with the moon mysterious and red, stands a Scottish Stag. He is silhouetted against a silent, ghostly mountain which stands guard over Aird Mair Bay. You can feel winter\'s cold breath.',
+    note: '',
+    thumb: 'Smaller file size images/Winter over Ben Mor Coigach .jpeg',
+    hires: 'Smaller file size images/Winter over Ben Mor Coigach .jpeg',
   },
 ];
 
@@ -1654,7 +1686,7 @@ const PAINTINGS = [
     const div = document.createElement('div');
     div.className = 'hero-slide' + (i === 0 ? ' active' : '');
     const img = document.createElement('img');
-    img.src     = h.src;
+    img.src     = encodeURI(h.src);
     img.alt     = h.alt;
     img.loading = i === 0 ? 'eager' : 'lazy';
     img.decoding = 'async';
@@ -1706,7 +1738,7 @@ const PAINTINGS = [
       <div class="painting-thumb" data-idx="${i}"
            role="button" tabindex="0"
            aria-label="View full size: ${p.title}">
-        <img src="${p.thumb}"
+        <img src="${encodeURI(p.thumb)}"
              alt="${p.title} — limited edition Giclee print by Richard H Moore"
              loading="lazy" decoding="async">
         <div class="thumb-zoom" aria-hidden="true">
@@ -1770,7 +1802,7 @@ function closeModal() {
 function populateModal() {
   const p = PAINTINGS[modalIdx];
   const img = document.getElementById('modalImg');
-  img.src = p.hires;
+  img.src = encodeURI(p.hires);
   img.alt = p.title + ' — Richard H Moore';
 
   document.getElementById('modalNum').textContent =
